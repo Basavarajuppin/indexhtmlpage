@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>html forms</title>
+
+    <style>
+        button{
+            background-color: aqua;
+            margin: 10px;
+        }
+
+        img{
+            image-orientation: flip;
+        }
+    </style>
+</head>
+<body>
+    
+   <fieldset>
+    <legend>Personlia:</legend>
+        <form >
+           
+            <label for="fname">firstname:</label><br>
+            <input type="text" id="fname" name="fname"   autocomplete="on"><br>
+
+            <label for="image">image:</label><br>
+            <input type="image" src="/Raja.jpg"    alt="mypic" width="40" height="40">
+            <label for="lname">lastname:</label><br>
+            <input type="text" id="lname" name="lname" autocomplete="on" size="5" maxlength="5"><br>
+             
+            <label for="password">password:</label><br>
+            <input type="password" id="pwd" name="pwd"  autocomplete="on" placeholder="ENTER PASSWORD"><br>
+
+            <label for="email">Enter the Email:</label><br>
+            <input type="email" id="email" disabled><br>   <!disabled>
+           
+            <label for="html">HTML:</label>
+            <input type="radio" id="html" name="fav_language"><br>
+            
+            <label for="CSS">CSS:</label>
+            <input type="radio" id="css" name="fav_language"><br>
+        
+            <label for="javacript">javacript</label>
+             <input type="radio" id="javascript" name="fav_language"><br><br>
+        
+             <label for="checkbox">html:</label>
+             <input type="checkbox" id="html" name="checkboxes" checked>
+        
+             <label for="ckeckbox">css:</label>
+             <input type="checkbox" id="css" >
+        
+             <label for="checkbox">javascript</label>
+             <input type="checkbox" id="javascrit" name="checkboxes"> <br>
+        
+             <button type="submit">submit</button>
+        
+             <button type="reset">reset </button>
+
+             <input type="color" id="favcolor" ><br>
+             
+             <label for="datemax">Date:</label><br>
+             <input type="date" id="date" required><br>
+
+             <label for="file">File:</label><br>
+             <input type="file" id="myfile"><br>
+
+             <label for="month">month:</label><br>
+             <input type="month" id="month"><br>
+
+             <label for="numbers">numbers:</label><br>
+             <input type="number" id="quantity" min="1" max="10"><br>
+
+             <label for="range">Range:</label><br>
+             <input type="range" id="vol" min="0" max="100">
+
+            <label for="phone:">phonenumber:</label><br>
+            <input type="tel" id="phone"  maxlength="10" pattern="{1-9}" >
+
+            <label for="time">Time:</label><br>
+            <input type="time" id="time"><br>
+
+            <label for="search">search:</label><br>
+            <input type="search" id="searchbar">
+
+            <label for="hidden">hidden:</label><br>
+            <input type="hidden" id="searchbar"><br>
+
+            <input list="browsers">
+            <datalist id="browsers">
+              <option value="Internet Explorer">
+              <option value="Firefox">
+              <option value="Chrome">
+              <option value="Opera">
+              <option value="Safari">
+            </datalist>
+
+             
+        </form> 
+   </fieldset>
+  
+   datalist
+</body>
+</html>

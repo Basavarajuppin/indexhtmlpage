@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>javascript outputs</title>
+</head>
+<body>
+    <p id="dash"></p>
+    <script>
+        document.getElementById("dash").innerHTML=6+5;
+    </script>
+
+    <script>
+        document.write(5+8);
+    </script> <br>
+
+    <button type="button" onclick="document.write(1+4)">try it</button>
+
+    <script>
+       window.alert(2+3);
+    </script>
+
+    <script>
+        console.log(1+8+6);
+    </script>
+
+    <button type="button" onclick="window.print()">print the page</button>
+    
+<p id="space"></p>
+<p id="space1"></p>
+    <script>
+        function myfun(){
+            document.getElementById("space").innerHTML=" hello how are you?";
+            document.getElementById("space1").innerHTML=" im fine....."
+        }
+    </script>
+
+    <button type="button" onclick="myfun()"> click me</button>
+</body>
+</html>
